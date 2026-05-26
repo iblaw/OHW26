@@ -766,10 +766,10 @@ document.addEventListener('DOMContentLoaded', () => {
           timerDeadlineLabel.style.color = 'var(--velvet-gold)';
         }
 
-        // Show individual passes, hide cooking competition entry card
+        // Show only Full Experience individual pass, hide the rest
         if (priceCardFull) priceCardFull.style.display = 'flex';
-        if (priceCardDinner) priceCardDinner.style.display = 'flex';
-        if (priceCardBasic) priceCardBasic.style.display = 'flex';
+        if (priceCardDinner) priceCardDinner.style.display = 'none';
+        if (priceCardBasic) priceCardBasic.style.display = 'none';
         if (priceCardCooking) priceCardCooking.style.display = 'none';
       }
 

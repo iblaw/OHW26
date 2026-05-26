@@ -1002,6 +1002,16 @@ p, .sans-body {
   color: var(--white-muted);
 }
 
+.late-fomo-price {
+  font-family: 'Manrope', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ff5e5e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+}
+
 .price-features {
   display: flex;
   flex-direction: column;
